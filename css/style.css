@@ -1,4 +1,11 @@
 
+body{
+font-family: 'IBM Plex Sans', sans-serif;
+  font-size:16px;
+  font-weight: 300;
+  line-height:30px;
+}
+
 .nav-wrapper{
     background-color:rgb(255,255,255);
    
@@ -9,6 +16,19 @@ nav ul a{
 nav a{
     color:black;
 }
+
+/*@media screen and (max-width: 576px){
+.jumbotron {
+     padding-top:0; 
+     padding-bottom:0;
+}
+.team_img{
+  width:400px;
+  height:250px;
+}
+}*/
+
+
 .jumbotron{
     position: relative;
     z-index:-101;
@@ -35,7 +55,7 @@ nav a{
  #aboutUs{
      background-color: #dfdfdf
  }
- .chandShabd{
+ /*.chandShabd{
     display: grid;
     grid-template-columns: 1fr 3fr ;
     grid-column-gap: 50px;
@@ -51,10 +71,10 @@ nav a{
       
       width: 390px;
 
-    }
+    }*/
       .chandShabd img{
         position: relative;
-        width:390px;
+        width:100%;
         overflow-y: hidden;
          height: 270px;
         border-radius: 6px;
@@ -63,31 +83,42 @@ nav a{
      
     
     .chandShabd .t2{ 
-      grid-column: 2/4;
+    /*  grid-column: 2/4;*/
       text-align: left;}
+
     .chandShabd  .title{
         font-size : 30px;
-        font-family: 'abril fatface';
+        /*font-family: 'abril fatface';*/
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  line-height:30px;
       }
       .chandShabd .title:before{
         content:"";
         height:3px;
-        width: 8.5%;
+        width: 20%;
         position:absolute;
-        
-        background-color: rgb(25,140,231);;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
         
       }
      .chandShabd .desc{
         font-size : 20px;
         margin-top: 15px;
-        font-family: 'roboto';
+      font-family: 'IBM Plex Sans', sans-serif;
+       /*font-family: 'Playfair Display', serif;*/
+        
+  font-weight: 300;
+  line-height:30px;
       }
     
   
-
+.tag{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
  
- .footer{
+ /*.footer{
      background-color: rgb(34,34,34)
  }
  .footer-heading {
@@ -142,7 +173,7 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     transition: .22s ease;
-}
+}*/
 .t1 .image{
 
     box-shadow: 3px 4px 5px rgba(34, 34, 34, 0.1);
@@ -152,6 +183,8 @@ ul, ol {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
     width:50vw;
+   
+    
     margin: auto;
    /* margin-bottom: 50px;*/
     overflow: hidden;
@@ -189,14 +222,23 @@ ul, ol {
 
 }
 .teamHeading{
-  background-color:rgb(25,140,231);
+  /*background-color:rgb(25,140,231);*/
   border-radius:15px;
-  color:#ffffff;
+  color:black;
   text-align:center;
-  width:100%;
+  justify-content:center;
+  width:40%!important;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-weight:500!important;
  
 }
-.teamHeading:before {
+.team .row{
+  display:flex;
+  width: fit-content;
+  flex-wrap: wrap;
+  margin:auto 0;
+}
+/*.teamHeading:before {
     content:"";
     background-color:rgb(25,140,231);
     position: absolute;
@@ -205,7 +247,7 @@ ul, ol {
     left: -30%;
     z-index: -1;
     margin-top:20px;
-}
+}*/
 .aboutLine{
   float:right;
   background-color:rgb(25,140,231);
@@ -239,3 +281,67 @@ ul, ol {
 }
 
  */
+ .site-footer{
+   background-color:rgb(34,34,34);
+   color:rgb(131,132,131) ;
+ }
+ .site-footer a{
+   color:rgb(131,132,131)!important;
+ }
+ .site-footer a:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
+}
+.site-footer h2{
+  font-size:1rem!important;
+   color:rgb(201,201,201)!important ;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.site-footer p{
+   font-size:1rem!important;
+}
+
+.site-footer hr {
+      border-top: 1px solid rgba(201,201,201,0.1)!important;
+}
+  
+.We{
+  /*background-color : rgb(25,140,231);*/
+  color: black;
+  width:90%;
+  height:75px;
+  border-top-right-radius: 47%;
+  border-bottom-right-radius: 47%;
+   border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+
+}
+.We .section-title{
+  text-align:center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /*font-size: 40px;*/
+  color:rgb(32,58,138);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:700;
+}
+
+.container-fluid{
+  width:90%!important;
+}
+.pro .card-title {
+    margin-bottom: 2rem;
+    font-size:1.5rem;
+    
+}
+
+.team .teamHeading  {
+border-bottom: 2px solid  rgb(25,140,231);
+margin-bottom: 3rem;
+border-radius:0;
+
+
+}
+.pro .card-body{
+  padding-left:0;
+  padding-right:0;
+}
