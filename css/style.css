@@ -5,6 +5,9 @@ font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   line-height:30px;
 }
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 
 .nav-wrapper{
     background-color:rgb(255,255,255);
@@ -103,10 +106,30 @@ nav a{
         background-color: rgb(25,140,231);
         
       }
+        .chandShabd .ori:before{
+        content:"";
+        height:3px;
+        width: 36%!important;
+        position:absolute;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
+        
+      }
+       .chandShabd .ori :before{
+        content:"";
+        height:3px;
+        width: 30%;
+        position:absolute;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
+        
+      }
      .chandShabd .desc{
         font-size : 20px;
         margin-top: 15px;
-      font-family: 'IBM Plex Sans', sans-serif;
+      font-family: 'IBM Plex Sans', sans-serif!important;
        /*font-family: 'Playfair Display', serif;*/
         
   font-weight: 300;
@@ -206,6 +229,14 @@ ul, ol {
     .pro .o{
       grid-column-start: auto;
      grid-column-end:auto;
+
+    }
+    .pro img{
+      display:inline-block;
+    width:100%;
+    height:100%;
+    min-height:251.23px;
+    border-radius:5px;
 
     }
    
@@ -320,7 +351,7 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
   text-align:center;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   /*font-size: 40px;*/
-  color:rgb(32,58,138);
+  color:rgb(25,140,231);
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight:700;
 }
@@ -331,6 +362,7 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 .pro .card-title {
     margin-bottom: 2rem;
     font-size:1.5rem;
+    font-weight:400;
     
 }
 
@@ -341,6 +373,8 @@ border-radius:0;
 
 
 }
+
+
 .pro .card-body{
   padding-left:0;
   padding-right:0;
@@ -354,6 +388,11 @@ border-radius:0;
         font-size: 35px;
         width:40%;
 
+      }
+      .events .title{
+         font-family: 'M PLUS Rounded 1c', sans-serif;
+         color: rgb(25,140,231);
+         width:100%!important;
       }
      .gPic {
       display:inline-block;
