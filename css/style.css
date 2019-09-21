@@ -352,8 +352,8 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   /*font-size: 40px;*/
   color:rgb(25,140,231);
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight:700;
+  /*font-family: 'IBM Plex Sans', sans-serif;*/
+
 }
 
 .container-fluid{
@@ -401,3 +401,5 @@ border-radius:0;
     border-radius:5px;
        
       }
+
+

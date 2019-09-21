@@ -13,6 +13,8 @@
    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
 <div class= "main">
@@ -20,7 +22,7 @@
         <div class="navbar-fixed">
             <nav>
               <div class="nav-wrapper">
-                <a href="google.com" class="brand-logo"><img src="IOSD-logo.png" ></a>
+                <a  class="nav-link brand-logo" href="index.html#0"><img src="IOSD-logo.png" ></a>
                 <ul class="right hide-on-med-and-down">
                   <li><a class="nav-link" href="index.html#0">Home</a></li>
                   <li><a class="nav-link" href="index.html#1">About Us</a></li>
@@ -38,7 +40,7 @@
    
         </section>
 <section class="AboutUs" id="1">
-                <div class="container chandShabd">     
+                <div class="container chandShabd"  data-aos="flip-down">     
                         <div class="row">
                           <div class="t1 col-12 col-md-6 col-lg-5 mt-5 mb-5">
                             <div class="image "><img class="img-responsive" src="./images/workshops/w1.jpg" alt="Card image cap"/></div> 
@@ -48,11 +50,9 @@
                              <div class="row ">
                              
                                     </div>
-                            <div class="title"  style="text-align:right;margin-top:3rem;font-weight:500;">TITLE IT</div>
+                            <div class="title"  style="text-align:right;margin-top:3rem;font-weight:500;">GAME DEV</div>
                             <div class ="desc mt-5" style="text-align:right; " >
-                                <p>IOSD MAIT is largest technical society of MAIT with around 400+ members registered in MAIT. 
-                                    We Teach, We make and We learn. Together.
-                                    We are confident that our efforts of sharing our knowledge will help our students in their future and we could continue this further.
+                                <p>Game Dev Workshop, gave a stimulating knowledge about the tools and techniques needed for design and development of games. The focus was to develop interactive games using python with the help of live projects.
                                   </p></div>
                           </div>      
                         </div>
@@ -60,18 +60,17 @@
                          
               </section>
  <section class="AboutUs" id="1">
-                <div class="container chandShabd">     
+                <div class="container chandShabd"  data-aos="flip-down">     
                         <div class="row">
                           <div class="t1 col-12 col-md-6 col-lg-7 mt-5 mb-5">
                            
                                <div class="row ">
                              
                                     </div>
-                            <div class="title"  style="text-align:left;margin-top:3rem;font-weight:500;">TITLE IT</div>
+                            <div class="title"  style="text-align:left;margin-top:3rem;font-weight:500;">GITHUB</div>
                             <div class ="desc mt-5" style="text-align:left ; " >
-                                <p>IOSD MAIT is largest technical society of MAIT with around 400+ members registered in MAIT. 
-                                    We Teach, We make and We learn. Together.
-                                    We are confident that our efforts of sharing our knowledge will help our students in their future and we could continue this further.
+                                <p>
+                                    GITHUB workshop, organised by IOSD-MAIT, was a brief on the Github ecosystem, easy navigation of basic Github workflows, version control, it's use in the real world and building readable, accessible and worthy projects.
                                   </p></div>          
                             </div>
                           <div class="t2 col-12 col-md-6 col-lg-5 mt-5 mb-5">
@@ -90,24 +89,32 @@
                                <div class="row ">
                              
                                     </div>
-                                     <div class="title "  style="text-align:center;font-weight:500;">&#39;&#39; LIVE IN YOUR WORLD, LEARN IN OURS. &#39;&#39;</div>
+                                     <div class="title "  style="text-align:center;font-weight:500;" data-aos="fade-down">&#39;&#39; LIVE IN YOUR WORLD, LEARN IN OURS. &#39;&#39;</div>
                        </div>
                 </div>
                 </div>
             </section>
               <!-- Stack the columns on mobile by making one full-width and the other half-width -->
                     <section id="gallery">
-                    <div class="container-fluid mt-5 galleryPic">
-                         <div class="row">
-                        <div class="col-6 col-md-4 mx-5"  style="height:300px;"><img  class="img-responsive gPic"  src="./images/workshops/w2.jpg"></div>
-                        <div class="col-6 col-md-4 mt-4"  style="height:250px!important;"><img  class="img-responsive gPic"  src="./images/workshops/w3.jpg"></div>
+                    <div class="container mt-5 galleryPic"  data-aos="zoom-in">
+                         <div class="row" style="display:flex; justify-content: center;">
+                         
+                        <div class="col-6 col-sm-3 pl-5 ml-5 "  style="height:300px;background-image:  url('./images/workshops/w2.jpg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                        <div class="col-6 col-sm-3  ml-3"  style="height:250px!important;background-image:  url('./images/workshops/w3.jpg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                         <div class="col-6 col-sm-3 ml-3 "  style="height:200px;margin-top:10px;background-image:  url('./images/workshops/w9.jpg');  background-repeat: no-repeat;
+                         background-size: contain;"></div>
                        
                         </div>
-                        <div class="row">
-                        <div class="col-6 col-md-4 ml-5 mb-5" style="height:250px!important;"><img  class="img-responsive gPic"  src="./images/workshops/w4.jpg"></div>
-                        <div class="col-6 col-md-4  mx-3 mt-4"  style="height:300px;"><img  class="img-responsive gPic"  src="./images/workshops/w5.jpeg"></div>
-                        <div class=" col-6 col-sm-3 "  style="height:250px!important;min-width:298.8;margin-top:5px;">
-                        <img  class="img-responsive gPic"  src="./images/workshops/w6.jpg">
+                        <div class="row"  style="display:flex; justify-content: center;">
+                        <div class="col-6 col-sm-3  ml-3" style="margin-top:20px;height:250px!important;background-image:  url('./images/workshops/w4.jpg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                        <div class="col-6 col-sm-3 ml-3 "  style="background-image:  url('./images/workshops/w5.jpeg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                        <div class=" col-6 col-sm-3 ml-3 "  style="margin-top:20px!important;height:250px!important;background-image:  url('./images/workshops/w6.jpg');  background-repeat: no-repeat;
+                        background-size: contain;">
+                     
                         </div>
                         </div>
 
@@ -115,10 +122,13 @@
                        
 
                         <!-- Columns are always 50% wide, on mobile and desktop -->
-                        <div class="row">
-                        <div class="col-6 col-sm-3 ml-5 "  style="height:200px;min-width:298.8"><img  class="img-responsive gPic"  src="./images/workshops/w7.jpg"></div>
-                        <div class=" col-6 col-sm-3 mx-5 mt-3"  style="height:250px!important;min-width:298.8"><img  class="img-responsive gPic"  src="./images/workshops/w8.jpg"></div>
-                         <div class="col-6 col-sm-3 "  style="height:200px;min-width:298.8;margin-top:10px;"><img  class="img-responsive gPic"  src="./images/workshops/w9.jpg"></div>
+                        <div class="row"  style="display:flex; justify-content: center;">
+                        <div class="col-6 col-sm-3 ml-3 "  style="height:200px;background-image:  url('./images/workshops/w7.jpg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                        <div class=" col-6 col-sm-3 ml-3 "  style="height:250px!important;background-image:  url('./images/workshops/w8.jpg');  background-repeat: no-repeat;
+                        background-size: contain;"></div>
+                         <div class="col-6 col-sm-3 ml-3 "  style="height:200px;background-image:  url('./images/workshops/w9.jpg');  background-repeat: no-repeat;
+                         background-size: contain;"></div>
                          
                         
                         </div>
@@ -132,7 +142,9 @@
             <div class="row">
               <div class="col-md-5">
                 <h2 class="footer-heading mb-4 mt-5">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <p>IOSD MAIT is largest technical society of MAIT with around 400+ members registered in MAIT. 
+                                    We Teach, We make and We learn. Together.
+                                    We are confident that our efforts of sharing our knowledge will help our students in their future and we could continue this further.</p>
               </div>
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4 mt-5" >Quick Links</h2>
@@ -174,5 +186,6 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript">AOS.init();</script>
 </body>
 </html>
