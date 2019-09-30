@@ -1,2 +1,2 @@
-# IOSD-MAIT-Student-Chapter-Website
-Website of student chapter of International Organisation of Software Developers at Maharaja Agrasen Institute of Technology
+# IOSD-Website
+visit at: https://shagunaawasthi.github.io/IOSD-MAIT.github.io/
