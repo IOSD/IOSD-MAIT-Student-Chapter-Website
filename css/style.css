@@ -1,0 +1,298 @@
+
+body{
+font-family: 'IBM Plex Sans', sans-serif;
+  font-size:16px;
+  font-weight: 300;
+  line-height:30px;
+  
+}
+
+.event-section .card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.nav-wrapper{
+    background-color:rgb(255,255,255);
+   
+}
+nav ul a{
+    color:black;
+}
+nav a{
+    color:black;
+}
+nav .brand-logo{
+  margin-top: 5px;
+}
+
+
+
+
+.jumbotron{
+    position: relative;
+    z-index:-101;
+    overflow: hidden;
+  }
+  #video-background { 
+    position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width:100%;
+  opacity: 0.9;
+  height: auto;
+ 
+}
+
+ #aboutUs{
+     background-color: #dfdfdf
+ }
+ 
+      .chandShabd img{
+        position: relative;
+        width:100%;
+        overflow-y: hidden;
+         height: 270px;
+        border-radius: 6px;
+
+      }  
+     
+    
+    .chandShabd .t2{ 
+
+      text-align: left;}
+
+    .chandShabd  .title{
+        font-size : 30px;
+     
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 300;
+  line-height:30px;
+      }
+      .chandShabd .title:before{
+        content:"";
+        height:3px;
+        width: 20%;
+        position:absolute;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
+        
+      }
+        .chandShabd .ori:before{
+        content:"";
+        height:3px;
+        width: 36%!important;
+        position:absolute;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
+        
+      }
+       .chandShabd .ori :before{
+        content:"";
+        height:3px;
+        width: 30%;
+        position:absolute;
+        margin-top: 2.5rem;
+        margin-bottom: 4 rem;
+        background-color: rgb(25,140,231);
+        
+      }
+     .chandShabd .desc{
+        font-size : 20px;
+        margin-top: 15px;
+      font-family: 'IBM Plex Sans', sans-serif!important;
+     
+        
+  font-weight: 300;
+  line-height:30px;
+      }
+    
+  
+.tag{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+ 
+
+.t1 .image{
+
+    box-shadow: 3px 4px 5px rgba(34, 34, 34, 0.1);
+}
+.pro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    width:50vw;
+   
+    
+    margin: auto;
+ 
+    overflow: hidden;
+     box-sizing: border-box;
+     align-items: center;
+ 
+}
+
+    .pro .p{
+      grid-column-start: auto;
+     grid-column-end:auto;
+
+    }
+     .pro .q{
+      grid-column-start: auto;
+     grid-column-end:auto;
+
+    }
+    .pro .o{
+      grid-column-start: auto;
+     grid-column-end:auto;
+
+    }
+    .pro img{
+      display:inline-block;
+    width:100%;
+    height:100%;
+    min-height:251.23px;
+    border-radius:5px;
+
+    }
+   
+.card{
+
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
+.container{
+  padding-right:0px;
+   margin-right:0px;
+  margin-right:0px;
+
+}
+.teamHeading{
+ 
+  border-radius:15px;
+  color:black;
+  text-align:center;
+  justify-content:center;
+  width:40%!important;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-weight:500!important;
+ 
+}
+.team .row{
+  display:flex;
+  width: fit-content;
+  flex-wrap: wrap;
+  margin:auto 0;
+}
+
+.aboutLine{
+  float:right;
+  background-color:rgb(25,140,231);
+  height:15px;
+  width:25px;
+  border-radius:15px;
+  
+
+}
+ .col12{
+  max-width:25px;
+}
+
+ .site-footer{
+   background-color:rgb(34,34,34);
+   color:rgb(131,132,131) ;
+ }
+ .site-footer a{
+   color:rgb(131,132,131)!important;
+ }
+ .site-footer a:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
+}
+.site-footer h2{
+  font-size:1rem!important;
+   color:rgb(201,201,201)!important ;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.site-footer p{
+   font-size:1rem!important;
+}
+
+.site-footer hr {
+      border-top: 1px solid rgba(201,201,201,0.1)!important;
+}
+  
+.We{
+  
+  color: black;
+  width:90%;
+  height:75px;
+  border-top-right-radius: 47%;
+  border-bottom-right-radius: 47%;
+   border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+
+}
+.We .section-title{
+  text-align:center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+ 
+  color:rgb(25,140,231);
+ 
+
+}
+
+.container-fluid{
+  width:90%!important;
+}
+.pro .card-title {
+    margin-bottom: 2rem;
+    font-size:1.5rem;
+    font-weight:400;
+    
+}
+
+.team .teamHeading  {
+border-bottom: 2px solid  rgb(25,140,231);
+margin-bottom: 3rem;
+border-radius:0;
+
+
+}
+
+
+.pro .card-body{
+  padding-left:0;
+  padding-right:0;
+}
+
+      .events{
+        font-size: 35px;
+        width:40%;
+
+      }
+      .events .title{
+         font-family: 'M PLUS Rounded 1c', sans-serif;
+         color: rgb(25,140,231);
+         width:100%!important;
+      }
+     .gPic {
+      display:inline-block;
+    width:100%;
+    height:100%;
+    border-radius:5px;
+       
+      }
+
+
