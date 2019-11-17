@@ -294,5 +294,12 @@ border-radius:0;
     border-radius:5px;
        
       }
-
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -70px;
+    margin-left: -70px;
 
